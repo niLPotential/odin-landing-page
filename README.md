@@ -1,3 +1,3 @@
 # odin-landing-page
 
-learning CSS flex
+learning CSS flexbox
