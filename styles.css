@@ -1,4 +1,5 @@
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -25,38 +26,110 @@ body {
 
 .hero {
     display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 5rem 0;
 }
 
 .hero-text {
+    margin: 0;
     display: flex;
     flex-direction: column;
+    width: 30rem;
+}
+
+.hero-main {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 420px;
+    height: 180px;
+    text-align: center;
+    background-color: gray;
+    color: #E5E7EB;
 }
 
 .information {
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 48px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .information-contents {
     display: flex;
+    gap: 2rem;
+}
+
+.information-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12rem;
+}
+
+.information-image {
+    border: solid #3882F6;
+    height: 11rem;
+    width: 11rem;
+}
+
+.information-text {
+    color: gray;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 6rem 18rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    margin: 0;
+    margin-left: auto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    width: 140px;
 }
 
 .signup {
     display: flex;
+    align-items: center;
+    margin: 48px;
+    padding: 24px;
     background-color: #3882F6;
-
+    gap: 48px;
 }
 
 .footer {
     text-align: center;
+    padding: 24px;
 }
-
 
 .header,
 .footer,
@@ -69,13 +142,9 @@ button {
     color: #F9FAF8;
 }
 
-.hero-main {
-    font-size: 48px;
-    font-weight: bold;
-}
-
 .smaller-main {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .secondary-text,
@@ -85,27 +154,13 @@ button {
 
 .secondary-text {
     color: #E5E7EB;
+    margin: 0;
 }
 
-.information-text {
-    color: gray;
-}
-
-.information-image {
-    border: solid #3882F6;
-}
-
-.information-header {
-    font-size: 36px;
-    font-weight: bold;
-    color: #1F2937;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937
+button,
+.information-image,
+.signup {
+    border-radius: 0.5em;
 }
 
 li {
