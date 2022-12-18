@@ -6,10 +6,16 @@ body {
     margin: 0;
 }
 
+.top {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 256px;
+}
+
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header-links {
@@ -17,19 +23,10 @@ body {
     gap: 16px;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-}
-
 .hero {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
-    width: 100%;
-    padding: 5rem 0;
+    justify-content: space-between;
+    margin: 56px 0;
 }
 
 .hero-text {
@@ -68,7 +65,8 @@ body {
 
 .information-contents {
     display: flex;
-    gap: 2rem;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .information-wrapper {
@@ -112,18 +110,17 @@ button {
     border: 0;
     font-size: 18px;
     font-weight: bold;
-    margin-top: 1rem;
     padding: 0.5rem 2rem;
     width: 140px;
 }
 
 .signup {
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    margin: 48px;
-    padding: 24px;
+    margin: 48px 256px;
+    padding: 36px;
     background-color: #3882F6;
-    gap: 48px;
 }
 
 .footer {
@@ -131,9 +128,8 @@ button {
     padding: 24px;
 }
 
-.header,
-.footer,
-.hero {
+.top,
+.footer {
     background-color: #1F2937;
 }
 
@@ -145,6 +141,7 @@ button {
 .smaller-main {
     font-size: 24px;
     font-weight: bold;
+    margin: 0;
 }
 
 .secondary-text,
