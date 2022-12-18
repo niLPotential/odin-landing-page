@@ -35,3 +35,14 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.second {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-contents {
+    display: flex;
+    justify-content: space-between;
+}
