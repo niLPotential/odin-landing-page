@@ -21,3 +21,17 @@ li {
 a {
     text-decoration: none;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    display: flex;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+}
