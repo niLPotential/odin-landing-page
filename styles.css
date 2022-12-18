@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
 }
 
 .header {
@@ -25,6 +27,8 @@ a {
 .content {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    align-items: center;
 }
 
 .first {
@@ -44,5 +48,12 @@ a {
 
 .second-contents {
     display: flex;
-    justify-content: space-between;
+}
+
+.signup {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
 }
